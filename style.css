@@ -90,9 +90,9 @@ section {
 }
 
 section h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .learning,
@@ -104,17 +104,37 @@ section h1 {
 
 .projects div h2 {
     font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.project-container {
+    margin-bottom: 40px;
 }
 
 .project-container h3 {
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
+.image-container {
+    padding: 20px;
+}
 
+.image-container-phone {
+    padding: 20px;
+}
 
+.image-container img {
+    width: 50%;
+    height: 50%;
+}
 
+.image-container-phone img {
+    width: 25%;
+    height: 25%;
+}
 
 .skills-container {
     display: flex;
@@ -123,11 +143,17 @@ section h1 {
 }
 
 .circular-progress {
+    width: 20%;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #C8AD7F;
+    border-radius: 50%;
 }
 
 .circular-progress h3 {
     color: gray;
 }
 
+.progress-value {
+    color: beige;
+}
